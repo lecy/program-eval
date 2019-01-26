@@ -128,31 +128,31 @@ Name the master power point deck *IMAGES.pptx*.
     iv.	Comparison of those that leave across groups
     v.	Comparison of leavers and stayers within groups
     vi.	Comparison of rates of attrition across groups
-
-**Research Design**
-11.	Experimental methods
-  a.	Randomization / true control groups
-  b.	Limitations (ethics, can’t randomize gender, etc.)
-  c.	Challenges to implementation
-12.	Natural experiments (external events that act like experiments)
-  a.	Lotteries
-  b.	Stages roll-out of policies
-  c.	Earthquakes, policy change, etc.
-13.	Non-experimental methods
-  d.	Observational
-  e.	Naturalistic
-14.	Quasi-experiments
-  a.	Post-test only
-    i.	Requires equivalent comparison groups 
-    ii.	Propensity score matching 
-    iii.	Regression discontinuity models (summer school example)
-  b.	Reflexive Studies 
-    i.	Requires arguments or tests for absence of trend (no gains independent of treatment)
-    ii.	Interrupted time-series models
-  c.	Pre-post with comparison
-    i.	Difference-in-difference models
-    ii.	Interrupted time-series with comparison group
-15.	Advanced experimental design
+ 
+**Research Design**  
+11.	Experimental methods  
+  a.	Randomization / true control groups  
+  b.	Limitations (ethics, can’t randomize gender, etc.)  
+  c.	Challenges to implementation  
+12.	Natural experiments (external events that act like experiments)  
+  a.	Lotteries  
+  b.	Stages roll-out of policies  
+  c.	Earthquakes, policy change, etc.  
+13.	Non-experimental methods  
+  d.	Observational  
+  e.	Naturalistic  
+14.	Quasi-experiments  
+  a.	Post-test only  
+    i.	Requires equivalent comparison groups  
+    ii.	Propensity score matching   
+    iii.	Regression discontinuity models (summer school example)  
+  b.	Reflexive Studies   
+    i.	Requires arguments or tests for absence of trend (no gains independent of treatment)  
+    ii.	Interrupted time-series models  
+  c.	Pre-post with comparison  
+    i.	Difference-in-difference models  
+    ii.	Interrupted time-series with comparison group  
+15.	Advanced experimental design  
 
 **Data Collection**
 16.	Reliability 
