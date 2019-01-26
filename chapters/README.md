@@ -29,8 +29,8 @@ Name the master power point deck *IMAGES.pptx*.
   - confidence intervals / coefficient plots 
   - slopes (null hypothesis)
   - dummy variables (null hypothesis)
-  - interactions (slope*treat)
-  - interactions (diff-in-diff)
+  - interactions (slope*treat_dummy)
+  - interactions (treat_dummy*time_dummy)
   - type i & ii errors 
 6. Control Variables
   - good controls
@@ -58,76 +58,76 @@ Name the master power point deck *IMAGES.pptx*.
 11. Model Diagnostics
   - outliers
   - comparing 2 models
-  - 
+
 
 ## Part II: Research Design
 
-**Intro / Overview**
-1.	Introduction to research design
-2.	Testing the Program Hypothesis
-  a.	Treatment groups (ANOVA, t-test, regression with dummies)
-  b.	Treatment levels (regression)
-  c.	Treatment categories (chi-square)
-4.	Validity (moved reliability to end)
-  a.	Internal
-  b.	External
-  c.	Type I and Type II Errors
-5.	Power
-  a.	Sample size
-  b.	Measurement error in DV and IV
-6.	Threats to Internal Validity
-  a.	Sample design
-    i.	Selection in (unobserved heterogeneity, omitted variable bias)
-    ii.	Selection out (attrition)
-  b.	Trends in the data
-    i.	Maturation
-    ii.	Secular trends
-    iii.	Seasonality
-    iv.	Regression to the mean
-    v.	Testing effects / Hawthorn effects
-  c.	Study calibration
-    i.	Study time-frame 
-    ii.	Measurement error
-  d.	Contamination
-    i.	Intervening effects
-    ii.	Diffusion of treatment
+**Intro / Overview**  
+1.	Introduction to research design    
+2.	Testing the Program Hypothesis   
+  -	Treatment groups (ANOVA, t-test, regression with dummies) 
+  -	Treatment levels (regression) 
+  -	Treatment categories (chi-square) 
+4.	Validity (moved reliability to end) 
+  - Internal 
+  - External 
+  - Type I and Type II Errors 
+5.	Power 
+  - Sample size  
+  - Measurement error in DV and IV  
+6.	Threats to Internal Validity  
+  - Sample design  
+    - Selection in (unobserved heterogeneity, omitted variable bias) 
+    - Selection out (attrition)  
+  - Trends in the data 
+    - Maturation 
+    - Secular trends 
+    - Seasonality 
+    - Regression to the mean 
+    - Testing effects / Hawthorn effects 
+  - Study calibration 
+    - Study time-frame  
+    - 	Measurement error 
+  - Contamination 
+    - Intervening effects 
+    - Diffusion of treatment 
 
 
 **Counterfactual Analysis**
-7.	The three counterfactuals
-  a.	Pre-post with control (difference-in-difference)
-    i.	Can test for equivalence of groups before treatment
-    ii.	Can test for secular trends
-    iii.	Can estimate the counterfactual
-    iv.	Can test for treatment effects
-  b.	Post-test only (requires equivalent groups to be valid)
-  c.	Pre-post reflexive (requires absence of trends)
-8.	Construction of a counterfactual
-  a.	Equivalent groups 
-    i.	RCT 
-    ii.	Matching
-      1.	Observable versus non-observable heterogeneity
-    iii.	Reflexive design
-    iv.	Test for equivalence (comparison of sample means, bonferoni corrections)
-      1.	In reflexive design, test would be for non-random attrition
-  b.	Non-equivalent groups 
-    i.	What can we say in this case?
+7.	The three counterfactuals 
+  - Pre-post with control (difference-in-difference) 
+    - Can test for equivalence of groups before treatment 
+    - Can test for secular trends 
+    - Can estimate the counterfactual 
+    - 	Can test for treatment effects 
+  - Post-test only (requires equivalent groups to be valid) 
+  - Pre-post reflexive (requires absence of trends) 
+8.	Construction of a counterfactual 
+  - Equivalent groups 
+    - RCT 
+    - Matching 
+      - Observable versus non-observable heterogeneity  
+    - Reflexive design  
+    - Test for equivalence (comparison of sample means, bonferoni corrections) 
+      - In reflexive design, test would be for non-random attrition 
+  - Non-equivalent groups  
+    - What can we say in this case?
     ii.	Use of difference-in-difference with non-equivalent groups
       1.	Parallel lines assumption need to construct a valid counterfactual
     iii.	Using comparison group to create upper or lower bounds
       1.	Use of bias formula to determine direction of bias
-9.	Treatment fidelity
-  a.	Intention to treat estimate
-  b.	Treatment-on-treated estimate
-  c.	Challenges with diffusion of treatment, individuals switching groups
-10.	Attrition
-  a.	Random attrition – impacts power, not bias (leads to type ii errors)
-  b.	Non-random attrition – introduces bias
-  c.	Tests for each
-    iii.	Comparison of study group means after attrition
-    iv.	Comparison of those that leave across groups
-    v.	Comparison of leavers and stayers within groups
-    vi.	Comparison of rates of attrition across groups
+9.	Treatment fidelity 
+  - Intention to treat estimate 
+  - Treatment-on-treated estimate 
+  - Challenges with diffusion of treatment, individuals switching groups 
+10.	Attrition 
+  - Random attrition – impacts power, not bias (leads to type ii errors) 
+  - Non-random attrition – introduces bias 
+  - Tests for each 
+    - Comparison of study group means after attrition 
+    - Comparison of those that leave across groups 
+    - Comparison of leavers and stayers within groups 
+    - Comparison of rates of attrition across groups 
  
 **Research Design**  
 11.	Experimental methods  
