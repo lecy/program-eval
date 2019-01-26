@@ -6,11 +6,11 @@ Images should go in the "assets" folder.
 
 Name the master power point deck *IMAGES.pptx*. 
 
-# Book Organization
+# Chapter Organization
 
 ## Part III: Causal Models
 
-1. Review of OVB Problem
+1. Intro
 2. Instrumental Variables
 3. Interrupted Time Series
 4. Difference-in-Difference
@@ -22,7 +22,7 @@ Name the master power point deck *IMAGES.pptx*.
 8. Regression Discontinuity Design
 9. Duration Analysis
     1. discrete-time failure models
-10. Categorizing Models by Counterfactual
+10. Models Counterfactuals
     1. Post-Test Only
        * instrumental variables
        * matching
@@ -40,11 +40,11 @@ Name the master power point deck *IMAGES.pptx*.
 11. Case Studies
     1. compare estimates across models
     1. Marriage and happiness
-      1. fixed effect
-      1. time-series
-      1. diff-in-diff
+       1. fixed effect
+       1. time-series
+       1. diff-in-diff
     1. Gender pay gap
-      1. OLS 
-      1. matching
-      1. diff-in-diff
+       1. OLS 
+       1. matching
+       1. diff-in-diff
 
