@@ -13,9 +13,9 @@ Name the master power point deck *IMAGES.pptx*.
 
 1. Case Study - Classroom Size
 2. Regression Basics 
-   - regression formula 
-   - model fit 
-     - residuals 
+   1. regression formula 
+   1. model fit 
+     1. residuals 
 3. Ballentine Venn Diagrams 
   - variance of Y
   - partitioning dv into y-hat, resid
