@@ -15,45 +15,46 @@
     1. Measurement error in DV and IV  
 6. Threats to Internal Validity  
     1. Sample design  
-      1. Selection in (unobserved heterogeneity, omitted variable bias) 
-      1. Selection out (attrition)  
+       1. Selection in (unobserved heterogeneity, omitted variable bias) 
+       1. Selection out (attrition)  
     1. Trends in the data 
-      1. Maturation 
-      1. Secular trends 
-      1. Seasonality 
-      1. Regression to the mean 
-      1. Testing effects / Hawthorn effects 
+       1. Maturation 
+       1. Secular trends 
+       1. Seasonality 
+       1. Regression to the mean 
+       1. Testing effects / Hawthorn effects 
     1. Study calibration 
-      1. Study time-frame  
-      1.  Measurement error 
+       1. Study time-frame  
+       1.  Measurement error 
     1. Contamination 
-      1. Intervening effects 
-      1. Diffusion of treatment 
+       1. Intervening effects 
+       1. Diffusion of treatment 
 
 
 **Counterfactual Analysis** 
+
 7. The three counterfactuals 
     1. Pre-post with control (difference-in-difference) 
-      1. Can test for equivalence of groups before treatment 
-      1. Can test for secular trends 
-      1. Can estimate the counterfactual 
-      1.  Can test for treatment effects 
+       1. Can test for equivalence of groups before treatment 
+       1. Can test for secular trends 
+       1. Can estimate the counterfactual 
+       1.  Can test for treatment effects 
     1. Post-test only (requires equivalent groups to be valid) 
     1. Pre-post reflexive (requires absence of trends) 
 8. Construction of a counterfactual 
     1. Equivalent groups 
-      1. RCT 
-      1. Matching 
-        1. Observable versus non-observable heterogeneity  
-      1. Reflexive design  
-      1. Test for equivalence (comparison of sample means, bonferoni corrections) 
-        1. In reflexive design, test would be for non-random attrition 
+       1. RCT 
+       1. Matching 
+          1. Observable versus non-observable heterogeneity  
+       1. Reflexive design  
+       1. Test for equivalence (comparison of sample means, bonferoni corrections) 
+          1. In reflexive design, test would be for non-random attrition 
     1. Non-equivalent groups  
-      1. What can we say in this case?
+       1. What can we say in this case?
     1. Use of difference-in-difference with non-equivalent groups
-      1. Parallel lines assumption need to construct a valid counterfactual
+       1. Parallel lines assumption need to construct a valid counterfactual
     1. Using comparison group to create upper or lower bounds
-      1. Use of bias formula to determine direction of bias
+       1. Use of bias formula to determine direction of bias
 9. Treatment fidelity 
     1. Intention to treat estimate 
     1. Treatment-on-treated estimate 
@@ -62,12 +63,13 @@
     1. Random attrition – impacts power, not bias (leads to type ii errors) 
     1. Non-random attrition – introduces bias 
     1. Tests for each 
-      1. Comparison of study group means after attrition 
-      1. Comparison of those that leave across groups 
-      1. Comparison of leavers and stayers within groups 
-      1. Comparison of rates of attrition across groups  
+       1. Comparison of study group means after attrition 
+       1. Comparison of those that leave across groups 
+       1. Comparison of leavers and stayers within groups 
+       1. Comparison of rates of attrition across groups  
  
 **Research Design**  
+
 11. Experimental methods  
     1. Randomization / true control groups  
     1. Limitations (ethics, can’t randomize gender, etc.)  
