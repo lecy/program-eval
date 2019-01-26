@@ -15,7 +15,7 @@ Name the master power point deck *IMAGES.pptx*.
 2. Regression Basics 
    - regression formula 
    - model fit 
-   - residuals 
+     - residuals 
 3. Ballentine Venn Diagrams 
   - variance of Y
   - partitioning dv into y-hat, resid
