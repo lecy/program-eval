@@ -17,47 +17,47 @@ Name the master power point deck *IMAGES.pptx*.
    1. model fit 
      1. residuals 
 3. Ballentine Venn Diagrams 
-  - variance of Y
-  - partitioning dv into y-hat, resid
-  - variance explained (R2)
-  - control variables
+    1. variance of Y
+    1. partitioning dv into y-hat, resid
+    1. variance explained (R2)
+    1. control variables
 4. Program Impact
-  - input / outcomes machine
-  - effect size (beta*std)
-  - standardized coefficients
+    1. input / outcomes machine
+    1. effect size (beta*std)
+    1. standardized coefficients
 5. Hypothesis Testing
-  - confidence intervals / coefficient plots 
-  - slopes (null hypothesis)
-  - dummy variables (null hypothesis)
-  - interactions (slope*treat_dummy)
-  - interactions (treat_dummy*time_dummy)
-  - type i & ii errors 
+    1. confidence intervals / coefficient plots 
+    1. slopes (null hypothesis)
+    1. dummy variables (null hypothesis)
+    1. interactions (slope*treat_dummy)
+    1. interactions (treat_dummy*time_dummy)
+    1. type i & ii errors 
 6. Control Variables
-  - good controls
-  - bad controls (multicollinearity)
-  - power
-  - competing hypotheses framework
-  - partitioned regression
+    1. good controls
+    1. bad controls (multicollinearity)
+    1. power
+    1. competing hypotheses framework
+    1. partitioned regression
 7. Omitted Variable Bias
 8. Seven Sins of Regression
-  - omitted variable bias
-  - selection
-  - group bias (heterogeneity)
-  - multicollinearity
-  - measurement error
-  - specification bias
-  - outliers
+    1. omitted variable bias
+    1. selection
+    1. group bias (heterogeneity)
+    1. multicollinearity
+    1. measurement error
+    1. specification bias
+    1. outliers
 9. Transformations
-  - liniear transformations
-  - quadratic models
-  - log models
+    1. liniear transformations
+    1. quadratic models
+    1. log models
 10. Improving Standard Errors
-  - robust standard errors
-  - bootstrapping
-  - clustering
+    1. robust standard errors
+    1. bootstrapping
+    1. clustering
 11. Model Diagnostics
-  - outliers
-  - comparing 2 models
+    1. outliers
+    1. comparing 2 models
 
 
 ## Part II: Research Design
@@ -65,94 +65,94 @@ Name the master power point deck *IMAGES.pptx*.
 **Intro / Overview**  
 1.	Introduction to research design    
 2.	Testing the Program Hypothesis   
-  -	Treatment groups (ANOVA, t-test, regression with dummies) 
-  -	Treatment levels (regression) 
-  -	Treatment categories (chi-square) 
+    1.	Treatment groups (ANOVA, t-test, regression with dummies) 
+    1.	Treatment levels (regression) 
+    1.	Treatment categories (chi-square) 
 4.	Validity (moved reliability to end) 
-  - Internal 
-  - External 
-  - Type I and Type II Errors 
+    1. Internal 
+    1. External 
+    1. Type I and Type II Errors 
 5.	Power 
-  - Sample size  
-  - Measurement error in DV and IV  
+    1. Sample size  
+    1. Measurement error in DV and IV  
 6.	Threats to Internal Validity  
-  - Sample design  
-    - Selection in (unobserved heterogeneity, omitted variable bias) 
-    - Selection out (attrition)  
-  - Trends in the data 
-    - Maturation 
-    - Secular trends 
-    - Seasonality 
-    - Regression to the mean 
-    - Testing effects / Hawthorn effects 
-  - Study calibration 
-    - Study time-frame  
-    - 	Measurement error 
-  - Contamination 
-    - Intervening effects 
-    - Diffusion of treatment 
+    1. Sample design  
+      1. Selection in (unobserved heterogeneity, omitted variable bias) 
+      1. Selection out (attrition)  
+    1. Trends in the data 
+      1. Maturation 
+      1. Secular trends 
+      1. Seasonality 
+      1. Regression to the mean 
+      1. Testing effects / Hawthorn effects 
+    1. Study calibration 
+      1. Study time-frame  
+      1. 	Measurement error 
+    1. Contamination 
+      1. Intervening effects 
+      1. Diffusion of treatment 
 
 
 **Counterfactual Analysis**
 7.	The three counterfactuals 
-  - Pre-post with control (difference-in-difference) 
-    - Can test for equivalence of groups before treatment 
-    - Can test for secular trends 
-    - Can estimate the counterfactual 
-    - 	Can test for treatment effects 
-  - Post-test only (requires equivalent groups to be valid) 
-  - Pre-post reflexive (requires absence of trends) 
+    1. Pre-post with control (difference-in-difference) 
+      1. Can test for equivalence of groups before treatment 
+      1. Can test for secular trends 
+      1. Can estimate the counterfactual 
+      1. 	Can test for treatment effects 
+    1. Post-test only (requires equivalent groups to be valid) 
+    1. Pre-post reflexive (requires absence of trends) 
 8.	Construction of a counterfactual 
-  - Equivalent groups 
-    - RCT 
-    - Matching 
-      - Observable versus non-observable heterogeneity  
-    - Reflexive design  
-    - Test for equivalence (comparison of sample means, bonferoni corrections) 
-      - In reflexive design, test would be for non-random attrition 
-  - Non-equivalent groups  
-    - What can we say in this case?
-    ii.	Use of difference-in-difference with non-equivalent groups
+    1. Equivalent groups 
+      1. RCT 
+      1. Matching 
+        1. Observable versus non-observable heterogeneity  
+      1. Reflexive design  
+      1. Test for equivalence (comparison of sample means, bonferoni corrections) 
+        1. In reflexive design, test would be for non-random attrition 
+    1. Non-equivalent groups  
+      1. What can we say in this case?
+    1.	Use of difference-in-difference with non-equivalent groups
       1.	Parallel lines assumption need to construct a valid counterfactual
-    iii.	Using comparison group to create upper or lower bounds
+    1.	Using comparison group to create upper or lower bounds
       1.	Use of bias formula to determine direction of bias
 9.	Treatment fidelity 
-  - Intention to treat estimate 
-  - Treatment-on-treated estimate 
-  - Challenges with diffusion of treatment, individuals switching groups 
+    1. Intention to treat estimate 
+    1. Treatment-on-treated estimate 
+    1. Challenges with diffusion of treatment, individuals switching groups 
 10.	Attrition 
-  - Random attrition – impacts power, not bias (leads to type ii errors) 
-  - Non-random attrition – introduces bias 
-  - Tests for each 
-    - Comparison of study group means after attrition 
-    - Comparison of those that leave across groups 
-    - Comparison of leavers and stayers within groups 
-    - Comparison of rates of attrition across groups 
+    1. Random attrition – impacts power, not bias (leads to type ii errors) 
+    1. Non-random attrition – introduces bias 
+    1. Tests for each 
+      1. Comparison of study group means after attrition 
+      1. Comparison of those that leave across groups 
+      1. Comparison of leavers and stayers within groups 
+      1. Comparison of rates of attrition across groups 
  
 **Research Design**  
-11.	Experimental methods  
-  a.	Randomization / true control groups  
-  b.	Limitations (ethics, can’t randomize gender, etc.)  
-  c.	Challenges to implementation  
-12.	Natural experiments (external events that act like experiments)  
-  a.	Lotteries  
-  b.	Stages roll-out of policies  
-  c.	Earthquakes, policy change, etc.  
-13.	Non-experimental methods  
-  d.	Observational  
-  e.	Naturalistic  
-14.	Quasi-experiments  
-  a.	Post-test only  
-    i.	Requires equivalent comparison groups  
-    ii.	Propensity score matching   
-    iii.	Regression discontinuity models (summer school example)  
-  b.	Reflexive Studies   
-    i.	Requires arguments or tests for absence of trend (no gains independent of treatment)  
-    ii.	Interrupted time-series models  
-  c.	Pre-post with comparison  
-    i.	Difference-in-difference models  
-    ii.	Interrupted time-series with comparison group  
-15.	Advanced experimental design  
+11. Experimental methods  
+  1. Randomization / true control groups  
+  1. Limitations (ethics, can’t randomize gender, etc.)  
+  1. Challenges to implementation  
+12. Natural experiments (external events that act like experiments)  
+  1. Lotteries  
+  1. Stages roll-out of policies  
+  1. Earthquakes, policy change, etc.  
+13. Non-experimental methods  
+  1. Observational  
+  1. Naturalistic  
+14. Quasi-experiments  
+  1. Post-test only  
+    1. Requires equivalent comparison groups  
+    1. Propensity score matching   
+    1. Regression discontinuity models (summer school example)  
+  1.	Reflexive Studies   
+    1.	Requires arguments or tests for absence of trend (no gains independent of treatment)  
+    1.	Interrupted time-series models  
+  1.	Pre-post with comparison  
+    1.	Difference-in-difference models  
+    1.	Interrupted time-series with comparison group  
+15. Advanced experimental design   
 
 **Data Collection**
 16.	Reliability 
@@ -170,35 +170,35 @@ Name the master power point deck *IMAGES.pptx*.
 4. Difference-in-Difference
 5. Fixed Effects
 6. Binary Outcome Models
-  - linear prob model
-  - logistic regression
+    1. linear prob model
+    1. logistic regression
 7. Propensity Score Matching
 8. Regression Discontinuity Design
 9. Duration Analysis
-  - discrete-time failure models
+    1. discrete-time failure models
 10. Categorizing Models by Counterfactual
-  - Post-Test Only
-    * instrumental variables
-    * matching
-    * regression discontinuity
-  - Reflexive
-    * interrupted time series
-    * fixed effects models
-  - Pre-Post w Control
-    * diff-in-diff
+    1. Post-Test Only
+       * instrumental variables
+       * matching
+       * regression discontinuity
+    1. Reflexive
+       * interrupted time series
+       * fixed effects models
+    1. Pre-Post w Control
+       * diff-in-diff
 10. Fixing Standard Errors
-  - weighted standard errors
-  - clustering
-  - autocorrelation
-  - limited dependent variables
+    1. weighted standard errors
+    1. clustering
+    1. autocorrelation
+    1. limited dependent variables
 11. Case Studies
-  - compare estimates across models
-  - Marriage and happiness
-    - fixed effect
-    - time-series
-    - diff-in-diff
-  - Gender pay gap
-    - OLS 
-    - matching
-    - diff-in-diff
+    1. compare estimates across models
+    1. Marriage and happiness
+      1. fixed effect
+      1. time-series
+      1. diff-in-diff
+    1. Gender pay gap
+      1. OLS 
+      1. matching
+      1. diff-in-diff
 
