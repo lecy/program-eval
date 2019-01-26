@@ -13,12 +13,13 @@ time_series_data.R
 
 ### Function and code
 
+```r
 gen_time_series <- function()...
 
 example graphs ...
 
 example models ...
-
+```
 
 # Documentation
 
